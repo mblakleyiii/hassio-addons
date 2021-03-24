@@ -1,0 +1,24 @@
+{
+    "name": "Minecraft Phantom Server",
+    "version": "alpha1",
+    "slug": "minecraft-phantom",
+    "description": "Minecraft proxy server using phantom by @jhead https://github.com/jhead/phantom",
+    "url": "https://github.com/mblakleyiii/hassio-addons",
+    "init": false,
+    "arch": [
+        "aarch64",
+        "amd64",
+        "armhf",
+        "armv7",
+        "i386"
+    ],
+    "host_network" : true,
+    "options": {
+        "server": "lax.mcbr.cubed.host:19132",
+        "debug": false
+    },
+    "schema": {
+        "server": "str",
+        "debug": "bool"
+    }
+}
